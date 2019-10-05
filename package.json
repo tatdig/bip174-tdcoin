@@ -1,5 +1,5 @@
 {
-  "name": "bip174",
+  "name": "bip174-tdcoin",
   "version": "1.0.1",
   "description": "",
   "main": "src/lib/psbt.js",
@@ -27,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitcoinjs/bip174.git"
+    "url": "git+https://github.com/bitcoinjs/bip174-tdcoin.git"
   },
   "devDependencies": {
     "@types/node": "12.0.8",
     "@types/tape": "4.2.33",
-    "bitcoinjs-lib": "^5.0.5",
+    "tdcoinjs-lib": "git+https://github.com/tatdig/tdcoinjs-lib.git",
     "buffer-json": "^2.0.0",
     "nyc": "^14.1.1",
     "prettier": "^1.18.2",
